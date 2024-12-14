@@ -578,6 +578,10 @@
     [
       "89fa62da-2443-4d2a-82e9-dd0d63b2bbd1",
       "Root"
+    ],
+    [
+      "79aa125c-329f-4c38-97df-264fd5a7d682",
+      "Analog Input"
     ]
   ],
   "text_variables": {}

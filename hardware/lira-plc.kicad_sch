@@ -4593,6 +4593,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 107.95) (xy 66.04 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "176a5555-7f4a-4e46-8342-4ad4fd090e16")
+	)
+	(wire
+		(pts
 			(xy 373.38 106.68) (xy 373.38 105.41)
 		)
 		(stroke
@@ -4740,6 +4750,16 @@
 			(type default)
 		)
 		(uuid "55d9089c-c818-40ea-8a76-0d0a6a68b546")
+	)
+	(wire
+		(pts
+			(xy 31.75 105.41) (xy 36.83 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5987c364-34d9-48ba-b8f2-83a28aac11be")
 	)
 	(wire
 		(pts
@@ -4903,6 +4923,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 95.25) (xy 31.75 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86cb9883-71af-439e-8ae9-72c2a6e02092")
+	)
+	(wire
+		(pts
 			(xy 342.9 41.91) (xy 342.9 38.1)
 		)
 		(stroke
@@ -5023,6 +5053,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 95.25) (xy 66.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0c70eff-dc94-4572-9c89-b92db357aa07")
+	)
+	(wire
+		(pts
 			(xy 373.38 92.71) (xy 373.38 95.25)
 		)
 		(stroke
@@ -5030,6 +5070,16 @@
 			(type default)
 		)
 		(uuid "a7cb8c04-dc1f-440b-8ffa-0dc2c3a958b3")
+	)
+	(wire
+		(pts
+			(xy 31.75 107.95) (xy 31.75 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a97ac6bd-5f72-4f2c-8656-77ed9c7aef97")
 	)
 	(wire
 		(pts
@@ -5100,6 +5150,16 @@
 			(type default)
 		)
 		(uuid "bd281f57-00c8-4acf-a9cb-9663b0c96b65")
+	)
+	(wire
+		(pts
+			(xy 31.75 97.79) (xy 36.83 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c191a197-138c-4614-9265-e90a9aa69018")
 	)
 	(wire
 		(pts
@@ -5273,6 +5333,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 97.79) (xy 62.23 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeda8c3e-a16e-46bf-8803-f6aeeb66928a")
+	)
+	(wire
+		(pts
 			(xy 340.36 55.88) (xy 340.36 57.15)
 		)
 		(stroke
@@ -5310,6 +5380,16 @@
 			(type default)
 		)
 		(uuid "f974f407-1c58-4128-8ede-5d7c877d80e8")
+	)
+	(wire
+		(pts
+			(xy 66.04 105.41) (xy 62.23 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0428ab-6928-471a-9667-78794bd5dda7")
 	)
 	(wire
 		(pts
@@ -6253,7 +6333,7 @@
 	)
 	(symbol
 		(lib_id "MCU_ST_STM32F1:STM32F103C8Tx")
-		(at 186.69 200.66 0)
+		(at 361.95 189.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6262,7 +6342,7 @@
 		(fields_autoplaced yes)
 		(uuid "488e3de6-27f8-4df5-b209-1ca597a7fabb")
 		(property "Reference" "U1"
-			(at 191.4241 241.3 0)
+			(at 366.6841 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6271,7 +6351,7 @@
 			)
 		)
 		(property "Value" "STM32F103C8Tx"
-			(at 191.4241 243.84 0)
+			(at 366.6841 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6280,7 +6360,7 @@
 			)
 		)
 		(property "Footprint" "Package_QFP:LQFP-48_7x7mm_P0.5mm"
-			(at 171.45 238.76 0)
+			(at 346.71 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6290,7 +6370,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f103c8.pdf"
-			(at 186.69 200.66 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6299,7 +6379,7 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M3 MCU, 64KB flash, 20KB RAM, 72 MHz, 2.0-3.6V, 37 GPIO, LQFP48"
-			(at 186.69 200.66 0)
+			(at 361.95 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,6 +7249,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND2")
+		(at 31.75 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b787d1e-8b46-4749-ab0c-7ef68423c0ea")
+		(property "Reference" "#PWR013"
+			(at 31.75 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND2"
+			(at 31.75 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
+			(at 31.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82ed7eb5-521a-4ed2-a41a-c996bb376fc2")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 127 35.56 0)
 		(unit 1)
@@ -7513,6 +7659,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 66.04 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a39d85d9-f94f-454b-a967-5d7953ad2091")
+		(property "Reference" "#PWR014"
+			(at 66.04 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 66.04 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 66.04 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc1c844a-9758-465e-8608-a64973f5f2ef")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Varistor")
 		(at 44.45 44.45 0)
 		(unit 1)
@@ -7649,6 +7861,138 @@
 			(project ""
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
 					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 66.04 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b636f4de-6ad2-4fdc-b73d-adf69c574276")
+		(property "Reference" "#PWR012"
+			(at 66.04 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 66.04 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 66.04 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5878d8e7-7182-4a1c-bfdb-bd7fb895b86b")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+24V")
+		(at 31.75 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6968f93-f61d-4f87-9f37-30556f4227a1")
+		(property "Reference" "#PWR015"
+			(at 31.75 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+24V"
+			(at 31.75 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+24V\""
+			(at 31.75 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "917b4cb2-d32f-4334-8343-ce3ed4a0ab8e")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8091,6 +8435,104 @@
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
 					(reference "#PWR06")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 95.25)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "79aa125c-329f-4c38-97df-264fd5a7d682")
+		(property "Sheetname" "Analog Input"
+			(at 36.83 94.5384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "analog-in.kicad_sch"
+			(at 36.83 108.5346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 36.83 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5502583b-98ec-454a-bcbe-1661eba130e7")
+		)
+		(pin "IN" input
+			(at 36.83 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "645451b6-923d-4a7e-8050-4e41967b8c25")
+		)
+		(pin "VCC" input
+			(at 36.83 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "2a84035b-bc85-4ea7-9ec0-ca65d03e0581")
+		)
+		(pin "VCC_ISO" input
+			(at 62.23 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "40130d40-7ae9-4808-a1ae-9ad313b68c22")
+		)
+		(pin "GND_ISO" input
+			(at 62.23 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4b03c144-10cf-4043-b25d-7a2178083019")
+		)
+		(pin "OUT" output
+			(at 62.23 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "00433df7-1154-4f85-ae2f-08fcef65604e")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(page "2")
 				)
 			)
 		)
