@@ -3292,8 +3292,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 87.2841 66.04 0)
+		(property "Value" "LM331"
+			(at 87.63 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3320,6 +3320,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" ""
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 85.09 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 85.09 76.2 0)
 			(effects
 				(font
@@ -4529,8 +4556,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 224.4441 67.31 0)
+		(property "Value" "LM331"
+			(at 224.79 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,6 +4584,33 @@
 			)
 		)
 		(property "Description" ""
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" ""
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 222.25 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" ""
 			(at 222.25 77.47 0)
 			(effects
 				(font
