@@ -475,371 +475,6 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x03"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x03_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
@@ -8596,6 +8231,12 @@
 		(uuid "ed00d33a-2d25-4b2b-a6fb-197dc31ae24a")
 	)
 	(junction
+		(at 67.31 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f001d745-48c8-4055-b7ac-ad25e1689154")
+	)
+	(junction
 		(at 140.97 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9671,16 +9312,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 30.48) (xy 67.31 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34712bcf-bda9-4cad-a406-ab299505dead")
-	)
-	(wire
-		(pts
 			(xy 260.35 264.16) (xy 247.65 264.16)
 		)
 		(stroke
@@ -10181,6 +9812,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 33.02) (xy 67.31 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52d99e9f-dfdc-449f-9975-b46290b649ba")
+	)
+	(wire
+		(pts
 			(xy 82.55 226.06) (xy 82.55 228.6)
 		)
 		(stroke
@@ -10391,7 +10032,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 25.4) (xy 140.97 29.21)
+			(xy 140.97 25.4) (xy 140.97 27.94)
 		)
 		(stroke
 			(width 0)
@@ -10738,6 +10379,16 @@
 			(type default)
 		)
 		(uuid "78124077-fe01-4431-bfad-b420a575e4af")
+	)
+	(wire
+		(pts
+			(xy 67.31 30.48) (xy 67.31 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e95338-3452-418f-9f9b-e0cfe126640b")
 	)
 	(wire
 		(pts
@@ -12711,7 +12362,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 36.83) (xy 140.97 38.1)
+			(xy 140.97 35.56) (xy 140.97 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14037,7 +13688,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 63.5 192.278 90)
 			(effects
 				(font
@@ -14132,7 +13783,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT500"
 			(at 379.73 138.43 0)
 			(effects
 				(font
@@ -14230,7 +13881,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.428 133.35 90)
 			(effects
 				(font
@@ -14300,109 +13951,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 398.78 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02a24649-b418-4834-98a6-015b2344dc08")
-		(property "Reference" "J11"
-			(at 401.32 41.9099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 398.78 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 398.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 398.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 398.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" ""
-			(at 398.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" ""
-			(at 398.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 398.78 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bd3eb40a-699c-4011-a203-46a456fdd88f")
-		)
-		(pin "4"
-			(uuid "2069d29d-b5e6-4dda-9db6-06b259990176")
-		)
-		(pin "2"
-			(uuid "63fc9df6-4626-4e15-a07e-68f78a5c9ff3")
-		)
-		(pin "1"
-			(uuid "84d9ca58-9129-4eb9-9a35-33301b1d0948")
-		)
-		(instances
-			(project "lira-plc"
-				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 46.99 93.98 180)
 		(unit 1)
@@ -14430,7 +13978,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 48.768 93.98 90)
 			(effects
 				(font
@@ -14696,7 +14244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 63.5 230.378 90)
 			(effects
 				(font
@@ -14766,6 +14314,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 62.23 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "06e9c837-a666-425a-be28-7b3dc5bd3365")
+		(property "Reference" "J5"
+			(at 58.42 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 62.23 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lira-connectors:Metaltex-BR0"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" ""
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
+			(at 62.23 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c907175-5194-4e50-8f96-cbd35a831b58")
+		)
+		(pin "2"
+			(uuid "af5487c6-5d29-40e0-8227-856ae5e481eb")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 200.66 31.75 0)
 		(unit 1)
@@ -14793,7 +14437,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 201.6252 35.56 0)
 			(effects
 				(font
@@ -14838,7 +14482,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-3469497357-kit-100-capacitores-cermicos-47uf-16v-smd-1206-x5r-4u7-_JM#polycard_client=search-nordic&position=40&search_layout=stack&type=item&tracking_id=635c4b76-d63e-4729-a02f-b42bc63afec6"
 			(at 200.66 31.75 0)
 			(effects
 				(font
@@ -14890,7 +14534,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 265.43 257.81 0)
 			(effects
 				(font
@@ -14909,6 +14553,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 260.35 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.mercadolivre.com.br/micro-chave-tactil-push-button-6x6x5mm-4t-10/p/MLB44167964#polycard_client=search-nordic&wid=MLB3921689371&sid=search&searchVariation=MLB44167964&position=7&search_layout=stack&type=product&tracking_id=fe80ca7a-2467-4e73-ad44-0118bbbba58b"
 			(at 260.35 257.81 0)
 			(effects
 				(font
@@ -14957,7 +14610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 63.5 179.578 90)
 			(effects
 				(font
@@ -15052,7 +14705,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 196.85 72.0852 0)
 			(effects
 				(font
@@ -15071,6 +14724,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 200.66 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 200.66 71.12 0)
 			(effects
 				(font
@@ -15121,7 +14783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 166.878 76.2 90)
 			(effects
 				(font
@@ -15218,7 +14880,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 355.6 52.07 0)
 			(effects
 				(font
@@ -15237,6 +14899,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
+			(at 355.6 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=VatiCKAMLvVyC0vP0LtRl8V8tHgr%2Bj4Y7YDnEhvAIUT8KyWu9Y5G%2FkkIm2jtAicEhVDpdOwjHQNL%2FkFSVgasp4lx2IgH6MsOyIqB6Cn5ovZ9hD4lpALxPXV0EnBEcZpqC9Ul2BiN5OjKI38JU%2BBwHvycyTu7FAeZQTmZAb0hj2eAVLFhWaP2srIElZtN4VLAqmhGgneEF3oqACBKprW0pMKEYIKOLxnpT5%2FBE8oMMO2PXTjFv5ZxTfSEILv%2FyBDCplmiCV15wDA0y0JF6Jarqw7vkATpwgWVDG8NJ2%2FTm3WyMr3tfbP7%2FFT7FWq916LqEuzewyvdjg2mOe8uyYnhY7L77CCfZkie4FtfRstDEz6n7%2F3r0JteMxz3uFs6GrDr7odbccY9a94FWGo6IooAyv%2BzmXMVBOnM2tz8hqQIFl8z3l7Wk1e2SKayuiBi9qbDuL4gPEz1hQ8Wi3%2Fiu5ibRGDs5gnUBl6AExIYqvjaN7V544CDM5AgM3W73tlAYnIq8uHBFtIj%2Flueuvx%2BCtYmTnliDj7J8v9kTzKxDkX5ZnDESfhCbKnz9UjPW6g0o72GaXCJfDppFl20xIRBGqmUl6edskwKbUnYSxsaPstARsvOEBiMJmSrBo7TbPehuLWHURI%2BZ%2BTqmLUhk%2FS04Uadbro78ubP36RQ9TIttjXzF00fUG6x0tJFvfcJlafA4vKLa5Qf3hCXdBMO8m6HyVtcQtnzciBddhFggh%2BQ%2FUARfnwTaeMSCWh4SzNdtoLckw17QNwbTt69qGtxGhg5bbepGLjrj1jN6nd%2BXys0o9pXhXGjavoTk%2FZSUPGlDhTTn7y24RuyixpA3s1Fvirve8xEs6bxxDxPU%2BZecIQGVHHOF94Q3b6NncnmqJrTv3nDYw%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=92591f24-47ae-47f6-b8a6-bf857386ebcd"
 			(at 355.6 52.07 0)
 			(effects
 				(font
@@ -15417,7 +15088,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 279.4 33.782 90)
 			(effects
 				(font
@@ -15514,7 +15185,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 227.0252 35.56 0)
 			(effects
 				(font
@@ -15559,7 +15230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=9lOcb4dCLdFqbot3iLUAcw5wlrVeeaEwF79DpAAFt08sZim8W5xC3Cvn7f5CniYfSflDZU9DbGG26cn7M4A1a1qYzE1i1tjyXC2IXreUXVqhlYaKDi1L6NlhL17aVphDFb5DVYE5G4ztyXuXENg5ncVOczuIMwHBcZNzqmOUx5R89in6Wm3roboK7NzJ4%2B40h3cLodgMKXdll7kbSi8uNkNALCxT%2BdQyoLTlM8aMog68itrYd9T2%2B3alJY0MGQ6utRkVp6BAwg2eQ8ZLqhQXrakvd9ufN6JmvzPyI2gHZOH9Ih8D29lkjPTO8iGxjNfmkKSP9LkLYlHM7aKWimQv10o0OZYqFvGD4c%2FTZCSq3MfjR9i5DP3h31pwIxhRiQ6nMJHKIGixxM6FZfjwKqCNos57BrX3MpwaJXnDLiCVvWy2m8JXRRUCcSe1mTib5Wco5MzGjux5EwX9Gpij8HUJWsR%2F5DXsBrIpd4LNwCaE7TmHAIp%2FDiao7yes%2F4soCTYI6c4fMzO%2BG2Qs4gdzBEyhjOHLmN9Lsy1DOxn9m6eDA8w3%2FfrPUyp9u0%2FFqm%2Fq%2FSv3tb8AKpQbUr7gE%2Bo9vNimAE%2FWvSUXEFBSu7bMKW1NEC5yoJF%2BkQJYJUkawsFJI2J4Ztlvo32Q8IkQ5NxTxbT30coP6J%2F5i0DBdPoEfQ7WMaHS%2FPJcNP9%2F9vE8rBk0ECfxv0nCUgcnwvPgrHyvYUjuYW%2FkyZToeOZ%2FwAi1Q2qOqsSRSCTku4itjqo77MvdBmgQUAXqBpVgbTSfWp3VBscG5LCpECEo10JnSPkEpq3YehxZ7yzOaHMUm4sHKTLQ6g%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=facc88f4-e5b3-4480-b241-e947bbb601d3"
 			(at 226.06 31.75 0)
 			(effects
 				(font
@@ -15609,7 +15280,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 177.8 175.768 90)
 			(effects
 				(font
@@ -15706,7 +15377,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 53.0352 264.16 0)
 			(effects
 				(font
@@ -15751,7 +15422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2084275999-kit-com-20-pecas-capacitor-ceramico-disco-10k-1kv-103k-1kv-_JM#is_advertising=true&position=2&search_layout=grid&type=pad&tracking_id=31540963-2782-4212-8ec1-8a7105884cd6&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=ZTIzNmM5OGEtZTc1MS00ZDkzLThjY2EtNmEyNWI2NWYwZWU5"
 			(at 52.07 260.35 0)
 			(effects
 				(font
@@ -15803,7 +15474,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 249.428 245.11 90)
 			(effects
 				(font
@@ -16041,7 +15712,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT500"
 			(at 379.73 36.83 0)
 			(effects
 				(font
@@ -16122,7 +15793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "21a3215a-4072-40c2-93ef-925eb46bb266")
-		(property "Reference" "J5"
+		(property "Reference" "J7"
 			(at 153.67 198.12 0)
 			(effects
 				(font
@@ -16138,7 +15809,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 153.67 209.55 0)
 			(effects
 				(font
@@ -16210,7 +15881,7 @@
 		(instances
 			(project ""
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J5")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -16243,7 +15914,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 87.63 266.7 0)
 			(effects
 				(font
@@ -16262,6 +15933,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
+			(at 87.63 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=VatiCKAMLvVyC0vP0LtRl8V8tHgr%2Bj4Y7YDnEhvAIUT8KyWu9Y5G%2FkkIm2jtAicEhVDpdOwjHQNL%2FkFSVgasp4lx2IgH6MsOyIqB6Cn5ovZ9hD4lpALxPXV0EnBEcZpqC9Ul2BiN5OjKI38JU%2BBwHvycyTu7FAeZQTmZAb0hj2eAVLFhWaP2srIElZtN4VLAqmhGgneEF3oqACBKprW0pMKEYIKOLxnpT5%2FBE8oMMO2PXTjFv5ZxTfSEILv%2FyBDCplmiCV15wDA0y0JF6Jarqw7vkATpwgWVDG8NJ2%2FTm3WyMr3tfbP7%2FFT7FWq916LqEuzewyvdjg2mOe8uyYnhY7L77CCfZkie4FtfRstDEz6n7%2F3r0JteMxz3uFs6GrDr7odbccY9a94FWGo6IooAyv%2BzmXMVBOnM2tz8hqQIFl8z3l7Wk1e2SKayuiBi9qbDuL4gPEz1hQ8Wi3%2Fiu5ibRGDs5gnUBl6AExIYqvjaN7V544CDM5AgM3W73tlAYnIq8uHBFtIj%2Flueuvx%2BCtYmTnliDj7J8v9kTzKxDkX5ZnDESfhCbKnz9UjPW6g0o72GaXCJfDppFl20xIRBGqmUl6edskwKbUnYSxsaPstARsvOEBiMJmSrBo7TbPehuLWHURI%2BZ%2BTqmLUhk%2FS04Uadbro78ubP36RQ9TIttjXzF00fUG6x0tJFvfcJlafA4vKLa5Qf3hCXdBMO8m6HyVtcQtnzciBddhFggh%2BQ%2FUARfnwTaeMSCWh4SzNdtoLckw17QNwbTt69qGtxGhg5bbepGLjrj1jN6nd%2BXys0o9pXhXGjavoTk%2FZSUPGlDhTTn7y24RuyixpA3s1Fvirve8xEs6bxxDxPU%2BZecIQGVHHOF94Q3b6NncnmqJrTv3nDYw%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=92591f24-47ae-47f6-b8a6-bf857386ebcd"
 			(at 87.63 266.7 0)
 			(effects
 				(font
@@ -16379,7 +16059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 70.8152 226.06 0)
 			(effects
 				(font
@@ -16398,6 +16078,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 69.85 222.25 0)
 			(effects
 				(font
@@ -16447,7 +16136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lira-regulators:LM2596-Board"
 			(at 125.095 29.21 0)
 			(effects
 				(font
@@ -16548,7 +16237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 87.63 152.4 0)
 			(effects
 				(font
@@ -16567,6 +16256,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
+			(at 87.63 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=VatiCKAMLvVyC0vP0LtRl8V8tHgr%2Bj4Y7YDnEhvAIUT8KyWu9Y5G%2FkkIm2jtAicEhVDpdOwjHQNL%2FkFSVgasp4lx2IgH6MsOyIqB6Cn5ovZ9hD4lpALxPXV0EnBEcZpqC9Ul2BiN5OjKI38JU%2BBwHvycyTu7FAeZQTmZAb0hj2eAVLFhWaP2srIElZtN4VLAqmhGgneEF3oqACBKprW0pMKEYIKOLxnpT5%2FBE8oMMO2PXTjFv5ZxTfSEILv%2FyBDCplmiCV15wDA0y0JF6Jarqw7vkATpwgWVDG8NJ2%2FTm3WyMr3tfbP7%2FFT7FWq916LqEuzewyvdjg2mOe8uyYnhY7L77CCfZkie4FtfRstDEz6n7%2F3r0JteMxz3uFs6GrDr7odbccY9a94FWGo6IooAyv%2BzmXMVBOnM2tz8hqQIFl8z3l7Wk1e2SKayuiBi9qbDuL4gPEz1hQ8Wi3%2Fiu5ibRGDs5gnUBl6AExIYqvjaN7V544CDM5AgM3W73tlAYnIq8uHBFtIj%2Flueuvx%2BCtYmTnliDj7J8v9kTzKxDkX5ZnDESfhCbKnz9UjPW6g0o72GaXCJfDppFl20xIRBGqmUl6edskwKbUnYSxsaPstARsvOEBiMJmSrBo7TbPehuLWHURI%2BZ%2BTqmLUhk%2FS04Uadbro78ubP36RQ9TIttjXzF00fUG6x0tJFvfcJlafA4vKLa5Qf3hCXdBMO8m6HyVtcQtnzciBddhFggh%2BQ%2FUARfnwTaeMSCWh4SzNdtoLckw17QNwbTt69qGtxGhg5bbepGLjrj1jN6nd%2BXys0o9pXhXGjavoTk%2FZSUPGlDhTTn7y24RuyixpA3s1Fvirve8xEs6bxxDxPU%2BZecIQGVHHOF94Q3b6NncnmqJrTv3nDYw%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=92591f24-47ae-47f6-b8a6-bf857386ebcd"
 			(at 87.63 152.4 0)
 			(effects
 				(font
@@ -16616,7 +16314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 63.5 154.178 90)
 			(effects
 				(font
@@ -16845,7 +16543,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 220.218 101.6 90)
 			(effects
 				(font
@@ -16942,7 +16640,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.428 209.55 90)
 			(effects
 				(font
@@ -17185,7 +16883,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 187.96 25.4 0)
 			(effects
 				(font
@@ -17230,7 +16928,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-3311994841-10x-indutor-10uh-smd-1207-10-340ma-18x32mm-taiyo-yuden-_JM#is_advertising=true&position=10&search_layout=grid&type=pad&tracking_id=705778c3-832c-4394-81a1-eaf5fbd8c397&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=10&ad_click_id=MzBjMjY0MTctNDllYy00ZTFiLThlMjMtMTVlOGI5YWM2N2E0"
 			(at 187.96 25.4 0)
 			(effects
 				(font
@@ -17309,7 +17007,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFP" ""
+		(property "MFP" "CDSOT23-SM712"
 			(at 275.59 101.6 0)
 			(effects
 				(font
@@ -17497,7 +17195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 355.6 153.67 0)
 			(effects
 				(font
@@ -17516,6 +17214,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
+			(at 355.6 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=VatiCKAMLvVyC0vP0LtRl8V8tHgr%2Bj4Y7YDnEhvAIUT8KyWu9Y5G%2FkkIm2jtAicEhVDpdOwjHQNL%2FkFSVgasp4lx2IgH6MsOyIqB6Cn5ovZ9hD4lpALxPXV0EnBEcZpqC9Ul2BiN5OjKI38JU%2BBwHvycyTu7FAeZQTmZAb0hj2eAVLFhWaP2srIElZtN4VLAqmhGgneEF3oqACBKprW0pMKEYIKOLxnpT5%2FBE8oMMO2PXTjFv5ZxTfSEILv%2FyBDCplmiCV15wDA0y0JF6Jarqw7vkATpwgWVDG8NJ2%2FTm3WyMr3tfbP7%2FFT7FWq916LqEuzewyvdjg2mOe8uyYnhY7L77CCfZkie4FtfRstDEz6n7%2F3r0JteMxz3uFs6GrDr7odbccY9a94FWGo6IooAyv%2BzmXMVBOnM2tz8hqQIFl8z3l7Wk1e2SKayuiBi9qbDuL4gPEz1hQ8Wi3%2Fiu5ibRGDs5gnUBl6AExIYqvjaN7V544CDM5AgM3W73tlAYnIq8uHBFtIj%2Flueuvx%2BCtYmTnliDj7J8v9kTzKxDkX5ZnDESfhCbKnz9UjPW6g0o72GaXCJfDppFl20xIRBGqmUl6edskwKbUnYSxsaPstARsvOEBiMJmSrBo7TbPehuLWHURI%2BZ%2BTqmLUhk%2FS04Uadbro78ubP36RQ9TIttjXzF00fUG6x0tJFvfcJlafA4vKLa5Qf3hCXdBMO8m6HyVtcQtnzciBddhFggh%2BQ%2FUARfnwTaeMSCWh4SzNdtoLckw17QNwbTt69qGtxGhg5bbepGLjrj1jN6nd%2BXys0o9pXhXGjavoTk%2FZSUPGlDhTTn7y24RuyixpA3s1Fvirve8xEs6bxxDxPU%2BZecIQGVHHOF94Q3b6NncnmqJrTv3nDYw%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=92591f24-47ae-47f6-b8a6-bf857386ebcd"
 			(at 355.6 153.67 0)
 			(effects
 				(font
@@ -17726,7 +17433,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 53.0352 149.86 0)
 			(effects
 				(font
@@ -17771,7 +17478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2084275999-kit-com-20-pecas-capacitor-ceramico-disco-10k-1kv-103k-1kv-_JM#is_advertising=true&position=2&search_layout=grid&type=pad&tracking_id=31540963-2782-4212-8ec1-8a7105884cd6&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=ZTIzNmM5OGEtZTc1MS00ZDkzLThjY2EtNmEyNWI2NWYwZWU5"
 			(at 52.07 146.05 0)
 			(effects
 				(font
@@ -17823,7 +17530,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 353.822 43.18 90)
 			(effects
 				(font
@@ -17992,78 +17699,6 @@
 			(project "lira-plc"
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
 					(reference "#PWR072")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 62.23 27.94 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b58cd70-cecc-4fc5-8396-eefd731e17d9")
-		(property "Reference" "J4"
-			(at 62.23 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 62.23 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 62.23 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e3224d21-d487-4328-bf12-613e2deb2a5e")
-		)
-		(pin "3"
-			(uuid "2f93715d-1444-46d2-912c-9c05d2136ade")
-		)
-		(pin "2"
-			(uuid "7f97af79-bc82-4479-91c3-05d1438bdc71")
-		)
-		(instances
-			(project ""
-				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -18292,7 +17927,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 314.96 55.118 90)
 			(effects
 				(font
@@ -18455,7 +18090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 229.5652 147.32 0)
 			(effects
 				(font
@@ -18474,6 +18109,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 228.6 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 228.6 143.51 0)
 			(effects
 				(font
@@ -18507,7 +18151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44a3706a-8400-4c3b-9ec2-61ad33dda07a")
-		(property "Reference" "J9"
+		(property "Reference" "J11"
 			(at 260.35 168.91 0)
 			(effects
 				(font
@@ -18524,7 +18168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 259.08 177.8 0)
 			(effects
 				(font
@@ -18599,7 +18243,7 @@
 		(instances
 			(project ""
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J9")
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -18631,7 +18275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT500"
 			(at 379.73 87.63 0)
 			(effects
 				(font
@@ -19212,109 +18856,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 26.67 142.24 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d5a3545-12f3-4f7a-8f0f-e7a49f822665")
-		(property "Reference" "J1"
-			(at 26.67 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 26.67 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 26.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" ""
-			(at 26.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" ""
-			(at 26.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 26.67 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5aeb972a-e7a2-4e75-9b44-38c9670236d7")
-		)
-		(pin "4"
-			(uuid "3525dbe1-779b-41b8-8b4a-e4233278bc1c")
-		)
-		(pin "2"
-			(uuid "6185332e-9f7a-4f15-b8d1-31886751f541")
-		)
-		(pin "1"
-			(uuid "9d7c6858-6d9e-4dd4-85f8-6e15f05958e5")
-		)
-		(instances
-			(project ""
-				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:TIP125")
 		(at 353.06 31.75 0)
 		(mirror x)
@@ -19727,7 +19268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 280.3652 147.32 0)
 			(effects
 				(font
@@ -19772,7 +19313,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-3141295318-20x-capacitor-10nf50v-10k50v-0603-smd-08x16mm-x7r-_JM#polycard_client=search-nordic&position=3&search_layout=grid&type=item&tracking_id=3f046e38-2546-4ccb-a5fa-a0319a124851"
 			(at 279.4 143.51 0)
 			(effects
 				(font
@@ -19984,7 +19525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 353.822 93.98 90)
 			(effects
 				(font
@@ -20054,7 +19595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 121.6152 264.16 0)
 			(effects
 				(font
@@ -20073,6 +19614,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 120.65 260.35 0)
 			(effects
 				(font
@@ -20124,7 +19674,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 53.0352 226.06 0)
 			(effects
 				(font
@@ -20169,7 +19719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2084275999-kit-com-20-pecas-capacitor-ceramico-disco-10k-1kv-103k-1kv-_JM#is_advertising=true&position=2&search_layout=grid&type=pad&tracking_id=31540963-2782-4212-8ec1-8a7105884cd6&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=ZTIzNmM5OGEtZTc1MS00ZDkzLThjY2EtNmEyNWI2NWYwZWU5"
 			(at 52.07 222.25 0)
 			(effects
 				(font
@@ -20287,7 +19837,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 220.218 76.2 90)
 			(effects
 				(font
@@ -20357,6 +19907,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 26.67 144.78 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a91281c-2d93-4278-a7a8-7e4452083a14")
+		(property "Reference" "J2"
+			(at 22.86 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 26.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lira-connectors:Metaltex-BR0"
+			(at 26.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" ""
+			(at 26.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 26.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
+			(at 26.67 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fd00d4f-3271-43ad-8bf6-7436e03fa51a")
+		)
+		(pin "2"
+			(uuid "b125123d-bd53-40aa-9ba5-7dd9d989e752")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 342.9 140.97 0)
 		(unit 1)
@@ -20384,7 +20030,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 341.122 140.97 90)
 			(effects
 				(font
@@ -20444,7 +20090,7 @@
 				)
 			)
 		)
-		(property "Value" "500p 2kV"
+		(property "Value" "4.7n 1kV"
 			(at 279.4 20.32 90)
 			(effects
 				(font
@@ -20452,7 +20098,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 283.21 24.4348 0)
 			(effects
 				(font
@@ -20497,7 +20143,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2084275999-kit-com-20-pecas-capacitor-ceramico-disco-10k-1kv-103k-1kv-_JM#is_advertising=true&position=2&search_layout=grid&type=pad&tracking_id=31540963-2782-4212-8ec1-8a7105884cd6&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=ZTIzNmM5OGEtZTc1MS00ZDkzLThjY2EtNmEyNWI2NWYwZWU5"
 			(at 279.4 25.4 0)
 			(effects
 				(font
@@ -20547,7 +20193,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 314.96 105.918 90)
 			(effects
 				(font
@@ -20775,7 +20421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 70.8152 187.96 0)
 			(effects
 				(font
@@ -20794,6 +20440,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 69.85 184.15 0)
 			(effects
 				(font
@@ -20976,7 +20631,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "630ff622-00a4-4c14-8806-cb872d9d5baf")
-		(property "Reference" "J8"
+		(property "Reference" "J10"
 			(at 165.1 260.35 0)
 			(effects
 				(font
@@ -20993,7 +20648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
 			(at 163.83 269.24 0)
 			(effects
 				(font
@@ -21068,7 +20723,7 @@
 		(instances
 			(project "lira-plc"
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J8")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -21236,7 +20891,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 63.5 141.478 90)
 			(effects
 				(font
@@ -21503,6 +21158,102 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 26.67 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6efef6ac-3774-4431-a041-7d1b6e3f4a40")
+		(property "Reference" "J1"
+			(at 22.86 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 26.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lira-connectors:Metaltex-BR0"
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" ""
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
+			(at 26.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a0229ba-2a6f-495c-9711-dec6f94d125d")
+		)
+		(pin "2"
+			(uuid "e7f2cb19-ac3b-4191-8f80-ceba0e8fad43")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED_Filled")
 		(at 87.63 228.6 0)
 		(unit 1)
@@ -21529,7 +21280,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 87.63 228.6 0)
 			(effects
 				(font
@@ -21548,6 +21299,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
+			(at 87.63 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=VatiCKAMLvVyC0vP0LtRl8V8tHgr%2Bj4Y7YDnEhvAIUT8KyWu9Y5G%2FkkIm2jtAicEhVDpdOwjHQNL%2FkFSVgasp4lx2IgH6MsOyIqB6Cn5ovZ9hD4lpALxPXV0EnBEcZpqC9Ul2BiN5OjKI38JU%2BBwHvycyTu7FAeZQTmZAb0hj2eAVLFhWaP2srIElZtN4VLAqmhGgneEF3oqACBKprW0pMKEYIKOLxnpT5%2FBE8oMMO2PXTjFv5ZxTfSEILv%2FyBDCplmiCV15wDA0y0JF6Jarqw7vkATpwgWVDG8NJ2%2FTm3WyMr3tfbP7%2FFT7FWq916LqEuzewyvdjg2mOe8uyYnhY7L77CCfZkie4FtfRstDEz6n7%2F3r0JteMxz3uFs6GrDr7odbccY9a94FWGo6IooAyv%2BzmXMVBOnM2tz8hqQIFl8z3l7Wk1e2SKayuiBi9qbDuL4gPEz1hQ8Wi3%2Fiu5ibRGDs5gnUBl6AExIYqvjaN7V544CDM5AgM3W73tlAYnIq8uHBFtIj%2Flueuvx%2BCtYmTnliDj7J8v9kTzKxDkX5ZnDESfhCbKnz9UjPW6g0o72GaXCJfDppFl20xIRBGqmUl6edskwKbUnYSxsaPstARsvOEBiMJmSrBo7TbPehuLWHURI%2BZ%2BTqmLUhk%2FS04Uadbro78ubP36RQ9TIttjXzF00fUG6x0tJFvfcJlafA4vKLa5Qf3hCXdBMO8m6HyVtcQtnzciBddhFggh%2BQ%2FUARfnwTaeMSCWh4SzNdtoLckw17QNwbTt69qGtxGhg5bbepGLjrj1jN6nd%2BXys0o9pXhXGjavoTk%2FZSUPGlDhTTn7y24RuyixpA3s1Fvirve8xEs6bxxDxPU%2BZecIQGVHHOF94Q3b6NncnmqJrTv3nDYw%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=92591f24-47ae-47f6-b8a6-bf857386ebcd"
 			(at 87.63 228.6 0)
 			(effects
 				(font
@@ -21662,7 +21422,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 152.4 72.0852 0)
 			(effects
 				(font
@@ -21681,6 +21441,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 156.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 156.21 71.12 0)
 			(effects
 				(font
@@ -21732,7 +21501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 242.2652 147.32 0)
 			(effects
 				(font
@@ -21751,6 +21520,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 241.3 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 241.3 143.51 0)
 			(effects
 				(font
@@ -21917,7 +21695,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 194.818 76.2 90)
 			(effects
 				(font
@@ -22012,7 +21790,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 314.96 156.718 90)
 			(effects
 				(font
@@ -22173,7 +21951,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 251.46 23.622 90)
 			(effects
 				(font
@@ -22529,7 +22307,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 260.35 137.16 0)
 			(effects
 				(font
@@ -22574,7 +22352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-3311994841-10x-indutor-10uh-smd-1207-10-340ma-18x32mm-taiyo-yuden-_JM#is_advertising=true&position=10&search_layout=grid&type=pad&tracking_id=705778c3-832c-4394-81a1-eaf5fbd8c397&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=10&ad_click_id=MzBjMjY0MTctNDllYy00ZTFiLThlMjMtMTVlOGI5YWM2N2E0"
 			(at 260.35 137.16 0)
 			(effects
 				(font
@@ -22821,7 +22599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 63.5 268.478 90)
 			(effects
 				(font
@@ -22918,7 +22696,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.3mm_W1.9mm_P5.00mm"
 			(at 53.0352 187.96 0)
 			(effects
 				(font
@@ -22963,7 +22741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2084275999-kit-com-20-pecas-capacitor-ceramico-disco-10k-1kv-103k-1kv-_JM#is_advertising=true&position=2&search_layout=grid&type=pad&tracking_id=31540963-2782-4212-8ec1-8a7105884cd6&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=2&ad_click_id=ZTIzNmM5OGEtZTc1MS00ZDkzLThjY2EtNmEyNWI2NWYwZWU5"
 			(at 52.07 184.15 0)
 			(effects
 				(font
@@ -23015,7 +22793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 70.8152 149.86 0)
 			(effects
 				(font
@@ -23034,6 +22812,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 69.85 146.05 0)
 			(effects
 				(font
@@ -23359,7 +23146,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 121.6152 149.86 0)
 			(effects
 				(font
@@ -23378,6 +23165,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 120.65 146.05 0)
 			(effects
 				(font
@@ -23427,7 +23223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_Bourns_MF-RHT500"
 			(at 379.73 189.23 0)
 			(effects
 				(font
@@ -23657,7 +23453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 353.822 195.58 90)
 			(effects
 				(font
@@ -23727,7 +23523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 355.6 102.87 0)
 			(effects
 				(font
@@ -23746,6 +23542,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
+			(at 355.6 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=VatiCKAMLvVyC0vP0LtRl8V8tHgr%2Bj4Y7YDnEhvAIUT8KyWu9Y5G%2FkkIm2jtAicEhVDpdOwjHQNL%2FkFSVgasp4lx2IgH6MsOyIqB6Cn5ovZ9hD4lpALxPXV0EnBEcZpqC9Ul2BiN5OjKI38JU%2BBwHvycyTu7FAeZQTmZAb0hj2eAVLFhWaP2srIElZtN4VLAqmhGgneEF3oqACBKprW0pMKEYIKOLxnpT5%2FBE8oMMO2PXTjFv5ZxTfSEILv%2FyBDCplmiCV15wDA0y0JF6Jarqw7vkATpwgWVDG8NJ2%2FTm3WyMr3tfbP7%2FFT7FWq916LqEuzewyvdjg2mOe8uyYnhY7L77CCfZkie4FtfRstDEz6n7%2F3r0JteMxz3uFs6GrDr7odbccY9a94FWGo6IooAyv%2BzmXMVBOnM2tz8hqQIFl8z3l7Wk1e2SKayuiBi9qbDuL4gPEz1hQ8Wi3%2Fiu5ibRGDs5gnUBl6AExIYqvjaN7V544CDM5AgM3W73tlAYnIq8uHBFtIj%2Flueuvx%2BCtYmTnliDj7J8v9kTzKxDkX5ZnDESfhCbKnz9UjPW6g0o72GaXCJfDppFl20xIRBGqmUl6edskwKbUnYSxsaPstARsvOEBiMJmSrBo7TbPehuLWHURI%2BZ%2BTqmLUhk%2FS04Uadbro78ubP36RQ9TIttjXzF00fUG6x0tJFvfcJlafA4vKLa5Qf3hCXdBMO8m6HyVtcQtnzciBddhFggh%2BQ%2FUARfnwTaeMSCWh4SzNdtoLckw17QNwbTt69qGtxGhg5bbepGLjrj1jN6nd%2BXys0o9pXhXGjavoTk%2FZSUPGlDhTTn7y24RuyixpA3s1Fvirve8xEs6bxxDxPU%2BZecIQGVHHOF94Q3b6NncnmqJrTv3nDYw%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=92591f24-47ae-47f6-b8a6-bf857386ebcd"
 			(at 355.6 102.87 0)
 			(effects
 				(font
@@ -23778,7 +23583,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a04a53f7-3691-4106-b253-40eca9cbebb1")
-		(property "Reference" "J10"
+		(property "Reference" "J12"
 			(at 287.02 74.93 0)
 			(effects
 				(font
@@ -23795,7 +23600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lira-connectors:Metaltex-BR0"
 			(at 287.02 81.28 0)
 			(effects
 				(font
@@ -23840,7 +23645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
 			(at 287.02 81.28 0)
 			(effects
 				(font
@@ -23858,7 +23663,7 @@
 		(instances
 			(project "lira-plc"
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J10")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -23892,7 +23697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 353.822 144.78 90)
 			(effects
 				(font
@@ -24118,7 +23923,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 177.8 178.308 90)
 			(effects
 				(font
@@ -24197,7 +24002,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad86e57a-5d3e-4caa-b06b-839a6e2b9637")
-		(property "Reference" "J7"
+		(property "Reference" "J9"
 			(at 157.48 161.29 0)
 			(effects
 				(font
@@ -24213,7 +24018,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal"
 			(at 161.29 175.26 0)
 			(effects
 				(font
@@ -24240,6 +24045,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-1210749725-5-pecas-conector-usb-tipo-b-90-graus-solda-placa-promoco-_JM#polycard_client=search-nordic&position=5&search_layout=grid&type=item&tracking_id=247c7092-bed6-4cd7-a32a-5e939e64feae"
+			(at 157.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "5bd120a1-5cc1-45f0-89d7-85bac58d3f5d")
 		)
@@ -24258,7 +24072,7 @@
 		(instances
 			(project ""
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J7")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -24357,7 +24171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 341.122 191.77 90)
 			(effects
 				(font
@@ -24493,7 +24307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 254.9652 147.32 0)
 			(effects
 				(font
@@ -24512,6 +24326,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 254 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 254 143.51 0)
 			(effects
 				(font
@@ -24628,7 +24451,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 341.122 90.17 90)
 			(effects
 				(font
@@ -24699,7 +24522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 171.45 163.83 0)
 			(effects
 				(font
@@ -24796,7 +24619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 216.8652 147.32 0)
 			(effects
 				(font
@@ -24815,6 +24638,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 215.9 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 215.9 143.51 0)
 			(effects
 				(font
@@ -24932,7 +24764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 66.548 93.98 90)
 			(effects
 				(font
@@ -25026,7 +24858,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 63.5 217.678 90)
 			(effects
 				(font
@@ -25123,7 +24955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 70.8152 264.16 0)
 			(effects
 				(font
@@ -25142,6 +24974,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 69.85 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 69.85 260.35 0)
 			(effects
 				(font
@@ -25337,7 +25178,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 121.6152 187.96 0)
 			(effects
 				(font
@@ -25356,6 +25197,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 120.65 184.15 0)
 			(effects
 				(font
@@ -25473,7 +25323,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 106.3752 35.56 0)
 			(effects
 				(font
@@ -25570,7 +25420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 121.6152 226.06 0)
 			(effects
 				(font
@@ -25589,6 +25439,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 120.65 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 120.65 222.25 0)
 			(effects
 				(font
@@ -25638,7 +25497,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 254 68.8848 0)
 			(effects
 				(font
@@ -25657,6 +25516,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 250.19 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2824414527-200x-capacitor-100nf50v-100k50v-0603-smd-08x16mm-x7r-_JM#is_advertising=true&position=1&search_layout=grid&type=pad&tracking_id=9ffa12bc-38e2-4475-ab21-06fa72bae343&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ZWE4ZGQ4OTAtMGQ5Yi00MDZlLThjMWEtNWM4NmEzMGRiZmFi"
 			(at 250.19 69.85 0)
 			(effects
 				(font
@@ -25767,7 +25635,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2327ee0-f29e-4154-8b2d-446e71250d1b")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 30.48 78.74 0)
 			(effects
 				(font
@@ -25784,7 +25652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "lira-connectors:Metaltex-BR0"
 			(at 30.48 85.09 0)
 			(effects
 				(font
@@ -25829,7 +25697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
 			(at 30.48 85.09 0)
 			(effects
 				(font
@@ -25847,7 +25715,7 @@
 		(instances
 			(project "lira-plc"
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -25913,6 +25781,102 @@
 			(project "lira-plc"
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 62.23 30.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c599676d-7585-41f2-b142-871b2ee61744")
+		(property "Reference" "J6"
+			(at 58.42 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 62.23 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lira-connectors:Metaltex-BR0"
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" ""
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
+			(at 62.23 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ff37a13-6cf2-41bb-ae59-e58c4f3beb72")
+		)
+		(pin "2"
+			(uuid "a4de94c6-b553-494e-963f-0c379c6ee056")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -25985,6 +25949,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 398.78 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c87a477f-e24a-4188-9ef0-439194cbe198")
+		(property "Reference" "J13"
+			(at 401.32 39.3699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 398.78 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lira-connectors:Metaltex-BR0"
+			(at 398.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 398.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" ""
+			(at 398.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 398.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
+			(at 398.78 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5db140dd-ec6b-40c6-ba97-d29d98e6041f")
+		)
+		(pin "2"
+			(uuid "43949884-a480-469c-b78d-4107749ce272")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 120.65 171.45 180)
 		(unit 1)
@@ -26012,7 +26073,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.428 171.45 90)
 			(effects
 				(font
@@ -26173,7 +26234,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
 			(at 73.66 27.178 90)
 			(effects
 				(font
@@ -26218,7 +26279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-1814045812-kit-50-pecas-porta-fusivel-para-placa-com-tampa-5x20-as06-_JM#polycard_client=search-nordic&position=49&search_layout=stack&type=item&tracking_id=c04687c2-5fba-4678-91fd-f5af0dc38035"
 			(at 73.66 25.4 0)
 			(effects
 				(font
@@ -26449,7 +26510,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 248.6152 261.62 0)
 			(effects
 				(font
@@ -26494,7 +26555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=9lOcb4dCLdFqbot3iLUAcw5wlrVeeaEwF79DpAAFt08sZim8W5xC3Cvn7f5CniYfSflDZU9DbGG26cn7M4A1a1qYzE1i1tjyXC2IXreUXVqhlYaKDi1L6NlhL17aVphDFb5DVYE5G4ztyXuXENg5ncVOczuIMwHBcZNzqmOUx5R89in6Wm3roboK7NzJ4%2B40h3cLodgMKXdll7kbSi8uNkNALCxT%2BdQyoLTlM8aMog68itrYd9T2%2B3alJY0MGQ6utRkVp6BAwg2eQ8ZLqhQXrakvd9ufN6JmvzPyI2gHZOH9Ih8D29lkjPTO8iGxjNfmkKSP9LkLYlHM7aKWimQv10o0OZYqFvGD4c%2FTZCSq3MfjR9i5DP3h31pwIxhRiQ6nMJHKIGixxM6FZfjwKqCNos57BrX3MpwaJXnDLiCVvWy2m8JXRRUCcSe1mTib5Wco5MzGjux5EwX9Gpij8HUJWsR%2F5DXsBrIpd4LNwCaE7TmHAIp%2FDiao7yes%2F4soCTYI6c4fMzO%2BG2Qs4gdzBEyhjOHLmN9Lsy1DOxn9m6eDA8w3%2FfrPUyp9u0%2FFqm%2Fq%2FSv3tb8AKpQbUr7gE%2Bo9vNimAE%2FWvSUXEFBSu7bMKW1NEC5yoJF%2BkQJYJUkawsFJI2J4Ztlvo32Q8IkQ5NxTxbT30coP6J%2F5i0DBdPoEfQ7WMaHS%2FPJcNP9%2F9vE8rBk0ECfxv0nCUgcnwvPgrHyvYUjuYW%2FkyZToeOZ%2FwAi1Q2qOqsSRSCTku4itjqo77MvdBmgQUAXqBpVgbTSfWp3VBscG5LCpECEo10JnSPkEpq3YehxZ7yzOaHMUm4sHKTLQ6g%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=facc88f4-e5b3-4480-b241-e947bbb601d3"
 			(at 247.65 257.81 0)
 			(effects
 				(font
@@ -26836,7 +26897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 63.5 255.778 90)
 			(effects
 				(font
@@ -26933,7 +26994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 267.6652 147.32 0)
 			(effects
 				(font
@@ -26978,7 +27039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=9lOcb4dCLdFqbot3iLUAcw5wlrVeeaEwF79DpAAFt08sZim8W5xC3Cvn7f5CniYfSflDZU9DbGG26cn7M4A1a1qYzE1i1tjyXC2IXreUXVqhlYaKDi1L6NlhL17aVphDFb5DVYE5G4ztyXuXENg5ncVOczuIMwHBcZNzqmOUx5R89in6Wm3roboK7NzJ4%2B40h3cLodgMKXdll7kbSi8uNkNALCxT%2BdQyoLTlM8aMog68itrYd9T2%2B3alJY0MGQ6utRkVp6BAwg2eQ8ZLqhQXrakvd9ufN6JmvzPyI2gHZOH9Ih8D29lkjPTO8iGxjNfmkKSP9LkLYlHM7aKWimQv10o0OZYqFvGD4c%2FTZCSq3MfjR9i5DP3h31pwIxhRiQ6nMJHKIGixxM6FZfjwKqCNos57BrX3MpwaJXnDLiCVvWy2m8JXRRUCcSe1mTib5Wco5MzGjux5EwX9Gpij8HUJWsR%2F5DXsBrIpd4LNwCaE7TmHAIp%2FDiao7yes%2F4soCTYI6c4fMzO%2BG2Qs4gdzBEyhjOHLmN9Lsy1DOxn9m6eDA8w3%2FfrPUyp9u0%2FFqm%2Fq%2FSv3tb8AKpQbUr7gE%2Bo9vNimAE%2FWvSUXEFBSu7bMKW1NEC5yoJF%2BkQJYJUkawsFJI2J4Ztlvo32Q8IkQ5NxTxbT30coP6J%2F5i0DBdPoEfQ7WMaHS%2FPJcNP9%2F9vE8rBk0ECfxv0nCUgcnwvPgrHyvYUjuYW%2FkyZToeOZ%2FwAi1Q2qOqsSRSCTku4itjqo77MvdBmgQUAXqBpVgbTSfWp3VBscG5LCpECEo10JnSPkEpq3YehxZ7yzOaHMUm4sHKTLQ6g%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=facc88f4-e5b3-4480-b241-e947bbb601d3"
 			(at 266.7 143.51 0)
 			(effects
 				(font
@@ -27253,7 +27314,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 314.96 207.518 90)
 			(effects
 				(font
@@ -27350,7 +27411,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 122.428 247.65 90)
 			(effects
 				(font
@@ -27692,7 +27753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e06c9eb1-550e-4e9b-84db-69ad0cf2ac1d")
-		(property "Reference" "J6"
+		(property "Reference" "J8"
 			(at 153.67 227.33 0)
 			(effects
 				(font
@@ -27708,7 +27769,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 			(at 153.67 238.76 0)
 			(effects
 				(font
@@ -27783,7 +27844,7 @@
 		(instances
 			(project ""
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J6")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -27791,7 +27852,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 140.97 33.02 0)
+		(at 140.97 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27800,7 +27861,7 @@
 		(fields_autoplaced yes)
 		(uuid "e21b12dd-c48e-4bcc-ad72-549aff216442")
 		(property "Reference" "C14"
-			(at 144.78 31.7499 0)
+			(at 144.78 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27808,8 +27869,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.68u"
-			(at 144.78 34.2899 0)
+		(property "Value" "1u"
+			(at 144.78 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27817,8 +27878,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 141.9352 36.83 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 141.9352 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27827,7 +27888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 33.02 0)
+			(at 140.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27836,7 +27897,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 140.97 33.02 0)
+			(at 140.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27845,7 +27906,7 @@
 			)
 		)
 		(property "MFP" ""
-			(at 140.97 33.02 0)
+			(at 140.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27854,7 +27915,7 @@
 			)
 		)
 		(property "MFN" ""
-			(at 140.97 33.02 0)
+			(at 140.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27862,8 +27923,17 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
-			(at 140.97 33.02 0)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=9lOcb4dCLdFqbot3iLUAcw5wlrVeeaEwF79DpAAFt08sZim8W5xC3Cvn7f5CniYfSflDZU9DbGG26cn7M4A1a1qYzE1i1tjyXC2IXreUXVqhlYaKDi1L6NlhL17aVphDFb5DVYE5G4ztyXuXENg5ncVOczuIMwHBcZNzqmOUx5R89in6Wm3roboK7NzJ4%2B40h3cLodgMKXdll7kbSi8uNkNALCxT%2BdQyoLTlM8aMog68itrYd9T2%2B3alJY0MGQ6utRkVp6BAwg2eQ8ZLqhQXrakvd9ufN6JmvzPyI2gHZOH9Ih8D29lkjPTO8iGxjNfmkKSP9LkLYlHM7aKWimQv10o0OZYqFvGD4c%2FTZCSq3MfjR9i5DP3h31pwIxhRiQ6nMJHKIGixxM6FZfjwKqCNos57BrX3MpwaJXnDLiCVvWy2m8JXRRUCcSe1mTib5Wco5MzGjux5EwX9Gpij8HUJWsR%2F5DXsBrIpd4LNwCaE7TmHAIp%2FDiao7yes%2F4soCTYI6c4fMzO%2BG2Qs4gdzBEyhjOHLmN9Lsy1DOxn9m6eDA8w3%2FfrPUyp9u0%2FFqm%2Fq%2FSv3tb8AKpQbUr7gE%2Bo9vNimAE%2FWvSUXEFBSu7bMKW1NEC5yoJF%2BkQJYJUkawsFJI2J4Ztlvo32Q8IkQ5NxTxbT30coP6J%2F5i0DBdPoEfQ7WMaHS%2FPJcNP9%2F9vE8rBk0ECfxv0nCUgcnwvPgrHyvYUjuYW%2FkyZToeOZ%2FwAi1Q2qOqsSRSCTku4itjqo77MvdBmgQUAXqBpVgbTSfWp3VBscG5LCpECEo10JnSPkEpq3YehxZ7yzOaHMUm4sHKTLQ6g%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=facc88f4-e5b3-4480-b241-e947bbb601d3"
+			(at 140.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
+			(at 140.97 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27914,7 +27984,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 257.81 31.75 0)
 			(effects
 				(font
@@ -27941,6 +28011,15 @@
 				(hide yes)
 			)
 		)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=VatiCKAMLvVyC0vP0LtRl8V8tHgr%2Bj4Y7YDnEhvAIUT8KyWu9Y5G%2FkkIm2jtAicEhVDpdOwjHQNL%2FkFSVgasp4lx2IgH6MsOyIqB6Cn5ovZ9hD4lpALxPXV0EnBEcZpqC9Ul2BiN5OjKI38JU%2BBwHvycyTu7FAeZQTmZAb0hj2eAVLFhWaP2srIElZtN4VLAqmhGgneEF3oqACBKprW0pMKEYIKOLxnpT5%2FBE8oMMO2PXTjFv5ZxTfSEILv%2FyBDCplmiCV15wDA0y0JF6Jarqw7vkATpwgWVDG8NJ2%2FTm3WyMr3tfbP7%2FFT7FWq916LqEuzewyvdjg2mOe8uyYnhY7L77CCfZkie4FtfRstDEz6n7%2F3r0JteMxz3uFs6GrDr7odbccY9a94FWGo6IooAyv%2BzmXMVBOnM2tz8hqQIFl8z3l7Wk1e2SKayuiBi9qbDuL4gPEz1hQ8Wi3%2Fiu5ibRGDs5gnUBl6AExIYqvjaN7V544CDM5AgM3W73tlAYnIq8uHBFtIj%2Flueuvx%2BCtYmTnliDj7J8v9kTzKxDkX5ZnDESfhCbKnz9UjPW6g0o72GaXCJfDppFl20xIRBGqmUl6edskwKbUnYSxsaPstARsvOEBiMJmSrBo7TbPehuLWHURI%2BZ%2BTqmLUhk%2FS04Uadbro78ubP36RQ9TIttjXzF00fUG6x0tJFvfcJlafA4vKLa5Qf3hCXdBMO8m6HyVtcQtnzciBddhFggh%2BQ%2FUARfnwTaeMSCWh4SzNdtoLckw17QNwbTt69qGtxGhg5bbepGLjrj1jN6nd%2BXys0o9pXhXGjavoTk%2FZSUPGlDhTTn7y24RuyixpA3s1Fvirve8xEs6bxxDxPU%2BZecIQGVHHOF94Q3b6NncnmqJrTv3nDYw%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=92591f24-47ae-47f6-b8a6-bf857386ebcd"
+			(at 257.81 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f4fe2d4c-b63a-4b7d-9fbd-badb4315de9f")
 		)
@@ -27951,6 +28030,103 @@
 			(project "lira-plc"
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 398.78 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4e570b0-7df7-4517-96ce-b4e2dddff4ac")
+		(property "Reference" "J14"
+			(at 401.32 44.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 398.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "lira-connectors:Metaltex-BR0"
+			(at 398.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 398.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 398.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" ""
+			(at 398.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 398.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
+			(at 398.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f111e37-2680-441e-bb74-f96f4d289dab")
+		)
+		(pin "2"
+			(uuid "aee6a2cd-3473-4121-a600-e031d29a3323")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -28302,7 +28478,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
 			(at 341.122 39.37 90)
 			(effects
 				(font
@@ -28436,7 +28612,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 262.89 88.138 90)
 			(effects
 				(font
@@ -28712,7 +28888,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 149.86 25.4 0)
 			(effects
 				(font
@@ -28757,7 +28933,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-3311994841-10x-indutor-10uh-smd-1207-10-340ma-18x32mm-taiyo-yuden-_JM#is_advertising=true&position=10&search_layout=grid&type=pad&tracking_id=705778c3-832c-4394-81a1-eaf5fbd8c397&is_advertising=true&ad_domain=VQCATCORE_LST&ad_position=10&ad_click_id=MzBjMjY0MTctNDllYy00ZTFiLThlMjMtMTVlOGI5YWM2N2E0"
 			(at 149.86 25.4 0)
 			(effects
 				(font
@@ -29037,7 +29213,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 245.11 179.578 90)
 			(effects
 				(font
@@ -29132,7 +29308,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 262.89 83.058 90)
 			(effects
 				(font
@@ -29229,7 +29405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 355.6 204.47 0)
 			(effects
 				(font
@@ -29248,6 +29424,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
+			(at 355.6 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=VatiCKAMLvVyC0vP0LtRl8V8tHgr%2Bj4Y7YDnEhvAIUT8KyWu9Y5G%2FkkIm2jtAicEhVDpdOwjHQNL%2FkFSVgasp4lx2IgH6MsOyIqB6Cn5ovZ9hD4lpALxPXV0EnBEcZpqC9Ul2BiN5OjKI38JU%2BBwHvycyTu7FAeZQTmZAb0hj2eAVLFhWaP2srIElZtN4VLAqmhGgneEF3oqACBKprW0pMKEYIKOLxnpT5%2FBE8oMMO2PXTjFv5ZxTfSEILv%2FyBDCplmiCV15wDA0y0JF6Jarqw7vkATpwgWVDG8NJ2%2FTm3WyMr3tfbP7%2FFT7FWq916LqEuzewyvdjg2mOe8uyYnhY7L77CCfZkie4FtfRstDEz6n7%2F3r0JteMxz3uFs6GrDr7odbccY9a94FWGo6IooAyv%2BzmXMVBOnM2tz8hqQIFl8z3l7Wk1e2SKayuiBi9qbDuL4gPEz1hQ8Wi3%2Fiu5ibRGDs5gnUBl6AExIYqvjaN7V544CDM5AgM3W73tlAYnIq8uHBFtIj%2Flueuvx%2BCtYmTnliDj7J8v9kTzKxDkX5ZnDESfhCbKnz9UjPW6g0o72GaXCJfDppFl20xIRBGqmUl6edskwKbUnYSxsaPstARsvOEBiMJmSrBo7TbPehuLWHURI%2BZ%2BTqmLUhk%2FS04Uadbro78ubP36RQ9TIttjXzF00fUG6x0tJFvfcJlafA4vKLa5Qf3hCXdBMO8m6HyVtcQtnzciBddhFggh%2BQ%2FUARfnwTaeMSCWh4SzNdtoLckw17QNwbTt69qGtxGhg5bbepGLjrj1jN6nd%2BXys0o9pXhXGjavoTk%2FZSUPGlDhTTn7y24RuyixpA3s1Fvirve8xEs6bxxDxPU%2BZecIQGVHHOF94Q3b6NncnmqJrTv3nDYw%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=92591f24-47ae-47f6-b8a6-bf857386ebcd"
 			(at 355.6 204.47 0)
 			(effects
 				(font
@@ -29362,7 +29547,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 275.59 179.578 90)
 			(effects
 				(font
@@ -29583,7 +29768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb7277d4-32fd-4b59-9880-a4f804ae799c")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 55.88 78.74 0)
 			(effects
 				(font
@@ -29600,7 +29785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 54.61 85.09 0)
 			(effects
 				(font
@@ -29669,7 +29854,7 @@
 		(instances
 			(project "lira-plc"
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -29702,7 +29887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D3.0mm"
 			(at 87.63 190.5 0)
 			(effects
 				(font
@@ -29721,6 +29906,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, filled shape"
+			(at 87.63 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count?a=VatiCKAMLvVyC0vP0LtRl8V8tHgr%2Bj4Y7YDnEhvAIUT8KyWu9Y5G%2FkkIm2jtAicEhVDpdOwjHQNL%2FkFSVgasp4lx2IgH6MsOyIqB6Cn5ovZ9hD4lpALxPXV0EnBEcZpqC9Ul2BiN5OjKI38JU%2BBwHvycyTu7FAeZQTmZAb0hj2eAVLFhWaP2srIElZtN4VLAqmhGgneEF3oqACBKprW0pMKEYIKOLxnpT5%2FBE8oMMO2PXTjFv5ZxTfSEILv%2FyBDCplmiCV15wDA0y0JF6Jarqw7vkATpwgWVDG8NJ2%2FTm3WyMr3tfbP7%2FFT7FWq916LqEuzewyvdjg2mOe8uyYnhY7L77CCfZkie4FtfRstDEz6n7%2F3r0JteMxz3uFs6GrDr7odbccY9a94FWGo6IooAyv%2BzmXMVBOnM2tz8hqQIFl8z3l7Wk1e2SKayuiBi9qbDuL4gPEz1hQ8Wi3%2Fiu5ibRGDs5gnUBl6AExIYqvjaN7V544CDM5AgM3W73tlAYnIq8uHBFtIj%2Flueuvx%2BCtYmTnliDj7J8v9kTzKxDkX5ZnDESfhCbKnz9UjPW6g0o72GaXCJfDppFl20xIRBGqmUl6edskwKbUnYSxsaPstARsvOEBiMJmSrBo7TbPehuLWHURI%2BZ%2BTqmLUhk%2FS04Uadbro78ubP36RQ9TIttjXzF00fUG6x0tJFvfcJlafA4vKLa5Qf3hCXdBMO8m6HyVtcQtnzciBddhFggh%2BQ%2FUARfnwTaeMSCWh4SzNdtoLckw17QNwbTt69qGtxGhg5bbepGLjrj1jN6nd%2BXys0o9pXhXGjavoTk%2FZSUPGlDhTTn7y24RuyixpA3s1Fvirve8xEs6bxxDxPU%2BZecIQGVHHOF94Q3b6NncnmqJrTv3nDYw%3D%3D&e=mclics%2Fadvertising-results-augmenter-on%2B15098%2Cmclics%2Fvariant-candidates%2B31710%2Cmclics%2Fshow-pads-search-lst%2B27043%2Cmclics%2Fsearch-pads-retrieval-sharecontrol%2B48606%2Cmclics%2Fmax-bid-capped%2B36382%2Cmclics%2Fmax-bid-item-factor%2B23927%2Cmclics%2Fsearch-pads-retrieval-sharecontrol2%2B48608%2Cmclics%2Fmin-budget-throttling%2B54896%2Cmclics%2Fdiscard-bid-lt-min%2B45363%2Cmclics%2Fsearch-btr-scoring%2B47310%2Cmclics%2Fmore-ads-migration%2B56865%2Cmclics%2Fpersonalization-btr-ctrmass-scoring%2B62327%2Cmclics%2Fdummy-search-experiment%2B29112%2Cmclics%2Fshow-pads-global-logged-shadow%2B31033%2Cmclics%2Fsearch-unified-viewmode%2B53350%2Cmclics%2Foverride-min-seasonality%2B49092&rb=x#polycard_client=search-nordic&tracking_id=92591f24-47ae-47f6-b8a6-bf857386ebcd"
 			(at 87.63 190.5 0)
 			(effects
 				(font

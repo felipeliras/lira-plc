@@ -1,0 +1,143 @@
+(footprint "Metaltex-BR0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c195d8d3-cd6c-4dd9-bfbf-e3afa5e9f07f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Metaltex-BR0"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f91d812f-7dfa-4c2a-acb6-8b9fdda04b08")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d9b678f-fca5-4714-a533-f1bcee5aaf5d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afc01810-4127-4b1e-95d1-985f48a951c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb096adc-fc8a-4fce-bdf6-9418fdc86d7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -4.5 -5)
+		(end 4.5 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "e2f071ff-0054-4977-bce4-31fc5e6e7c72")
+	)
+	(fp_poly
+		(pts
+			(xy -3 5) (xy -2 5) (xy -2.5 4.5)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "a86f6962-e597-407a-a703-b5cbb5a6eb08")
+	)
+	(fp_rect
+		(start -5 -5)
+		(end 5 4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "02f21582-0a2e-4102-bf7b-84d67fc235c5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9e13fefe-7f2e-44e3-ac22-551f3f734dc3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 2.24 2.24)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "47ce23d5-f4c1-4788-a142-fb453353f20c")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2.24 2.24)
+		(drill 1.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fbfc58b8-56c1-4720-b619-543fd966a5ad")
+	)
+	(model "${KICAD_LIRAPLC_LIB}/3d/lira-connectors/BR002.STEP"
+		(offset
+			(xyz -5 5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

@@ -1,0 +1,4 @@
+File: LM2596 DC-DC StepDown Converter v1.step
+Downloaded from Grabcad
+Author: Ivano De Marchi
+Link: https://grabcad.com/library/lm2596-dc-dc-stepdown-converter-1
