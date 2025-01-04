@@ -1,0 +1,22 @@
+01-04 16:45:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 178:Plugin executed on: 'win32'
+01-04 16:45:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 179:Plugin executed with python version: '3.11.5 (main, Nov  3 2024, 06:58:22) [MSC v.1939 64 bit (AMD64)]'
+01-04 16:45:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 180:KiCad build version: 8.0.7
+01-04 16:45:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 181:Plugin version: 3.0.1
+01-04 16:45:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 182:Frame repr: <wx._core.Frame object at 0x0000021B5CE39D80>
+01-04 16:45:00 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 200:Anchor footprint reference is 'U1'
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 209:Save layout chosen
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 453:Working on O:\PKM Tresorit\1 Projetos\📂 CLP Open Source\git\lira-plc\hardware\lira-plc.kicad_pcb
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 458:Saving the current board temporary in order to leave current layout intact
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 464:Saving board as tempfile: C:\Users\Felipe\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 469:Loaded temp boardfile: C:\Users\Felipe\AppData\Local\Temp\temp_board_file_for_save.kicad_pcb
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 470:Get project schematics and layout data
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.save_restore_layout 176:getting a list of all footprints on board
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 91:populating the levels with []
+01-04 16:45:02 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 92:populating the levels with []
+01-04 16:45:05 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-04 16:45:05 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-04 16:45:05 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available []
+01-04 16:45:06 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 100:Clearing highlight
+01-04 16:45:07 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 107:levels_selection -1
+01-04 16:45:07 com_github_MitjaNemec_SaveRestoreLayout.action_save_restore_layout 108:levels available []
