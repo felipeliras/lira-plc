@@ -2070,139 +2070,6 @@
 				)
 			)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -8862,16 +8729,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 25.4) (xy 86.36 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d33fb69-ea51-49dd-847f-21ac2c7e3ddb")
-	)
-	(wire
-		(pts
 			(xy 355.6 38.1) (xy 355.6 39.37)
 		)
 		(stroke
@@ -10132,7 +9989,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 25.4) (xy 69.85 25.4)
+			(xy 67.31 25.4) (xy 86.36 25.4)
 		)
 		(stroke
 			(width 0)
@@ -13688,7 +13545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 63.5 192.278 90)
 			(effects
 				(font
@@ -13733,7 +13590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 63.5 190.5 0)
 			(effects
 				(font
@@ -14244,7 +14101,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 63.5 230.378 90)
 			(effects
 				(font
@@ -14289,7 +14146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 63.5 228.6 0)
 			(effects
 				(font
@@ -14610,7 +14467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 63.5 179.578 90)
 			(effects
 				(font
@@ -14655,7 +14512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 63.5 177.8 0)
 			(effects
 				(font
@@ -16314,7 +16171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 63.5 154.178 90)
 			(effects
 				(font
@@ -16359,7 +16216,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 63.5 152.4 0)
 			(effects
 				(font
@@ -17530,7 +17387,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 353.822 43.18 90)
 			(effects
 				(font
@@ -19525,7 +19382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 353.822 93.98 90)
 			(effects
 				(font
@@ -19908,8 +19765,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 26.67 144.78 0)
-		(mirror y)
+		(at 26.67 147.32 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19917,7 +19773,7 @@
 		(dnp no)
 		(uuid "5a91281c-2d93-4278-a7a8-7e4452083a14")
 		(property "Reference" "J2"
-			(at 22.86 144.78 0)
+			(at 22.86 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19925,7 +19781,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 26.67 140.97 0)
+			(at 26.67 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19934,7 +19790,7 @@
 			)
 		)
 		(property "Footprint" "lira-connectors:Metaltex-BR0"
-			(at 26.67 144.78 0)
+			(at 26.67 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19943,7 +19799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 144.78 0)
+			(at 26.67 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19952,7 +19808,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 26.67 144.78 0)
+			(at 26.67 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19961,7 +19817,7 @@
 			)
 		)
 		(property "MFP" ""
-			(at 26.67 144.78 0)
+			(at 26.67 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19970,7 +19826,7 @@
 			)
 		)
 		(property "MFN" ""
-			(at 26.67 144.78 0)
+			(at 26.67 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19979,7 +19835,7 @@
 			)
 		)
 		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
-			(at 26.67 144.78 0)
+			(at 26.67 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20030,7 +19886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 341.122 140.97 90)
 			(effects
 				(font
@@ -20049,6 +19905,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 342.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 342.9 140.97 0)
 			(effects
 				(font
@@ -20891,7 +20756,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 63.5 141.478 90)
 			(effects
 				(font
@@ -20936,7 +20801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 63.5 139.7 0)
 			(effects
 				(font
@@ -21950,7 +21815,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 251.46 23.622 90)
 			(effects
 				(font
@@ -22598,7 +22463,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 63.5 268.478 90)
 			(effects
 				(font
@@ -22643,7 +22508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 63.5 266.7 0)
 			(effects
 				(font
@@ -23452,7 +23317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 353.822 195.58 90)
 			(effects
 				(font
@@ -23696,7 +23561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 353.822 144.78 90)
 			(effects
 				(font
@@ -24170,7 +24035,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 341.122 191.77 90)
 			(effects
 				(font
@@ -24189,6 +24054,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 342.9 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 342.9 191.77 0)
 			(effects
 				(font
@@ -24450,7 +24324,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 341.122 90.17 90)
 			(effects
 				(font
@@ -24469,6 +24343,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 342.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 342.9 90.17 0)
 			(effects
 				(font
@@ -24857,7 +24740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 63.5 217.678 90)
 			(effects
 				(font
@@ -24902,7 +24785,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 63.5 215.9 0)
 			(effects
 				(font
@@ -26208,101 +26091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 73.66 25.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca0061e1-686d-43c2-aa95-03849c3ae678")
-		(property "Reference" "F1"
-			(at 73.66 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5A"
-			(at 73.66 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuseholder_Cylinder-5x20mm_Schurter_0031_8201_Horizontal_Open"
-			(at 73.66 27.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" ""
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" ""
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://produto.mercadolivre.com.br/MLB-1814045812-kit-50-pecas-porta-fusivel-para-placa-com-tampa-5x20-as06-_JM#polycard_client=search-nordic&position=49&search_layout=stack&type=item&tracking_id=c04687c2-5fba-4678-91fd-f5af0dc38035"
-			(at 73.66 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "94fa2181-f7dd-42e4-b4c9-ee58d77e2523")
-		)
-		(pin "1"
-			(uuid "b924ae2f-9378-463d-aea3-46c70ff7d213")
-		)
-		(instances
-			(project ""
-				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Filled")
 		(at 95.25 25.4 180)
 		(unit 1)
@@ -26896,7 +26684,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 63.5 255.778 90)
 			(effects
 				(font
@@ -26941,7 +26729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Link" ""
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 63.5 254 0)
 			(effects
 				(font
@@ -28477,7 +28265,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 341.122 39.37 90)
 			(effects
 				(font
@@ -28496,6 +28284,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 342.9 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 342.9 39.37 0)
 			(effects
 				(font

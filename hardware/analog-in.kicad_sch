@@ -2388,7 +2388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 121.412 57.15 90)
 			(effects
 				(font
@@ -4448,7 +4448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 34.29 71.628 90)
 			(effects
 				(font
@@ -4467,6 +4467,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 34.29 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-2819855028-200-resistor-47k-5-1w-4k7-_JM#polycard_client=search-nordic&position=17&search_layout=grid&type=item&tracking_id=e99d129f-e26e-482b-955e-52166e9eeba3"
 			(at 34.29 69.85 0)
 			(effects
 				(font
