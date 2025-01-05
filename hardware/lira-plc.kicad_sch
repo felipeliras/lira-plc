@@ -11,7 +11,7 @@
 		(company "FELIPE LIRA")
 	)
 	(lib_symbols
-		(symbol "Connector:USB_B"
+		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
 			)
@@ -27,7 +27,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "USB_B"
+			(property "Value" "USB_B_Micro"
 				(at -5.08 8.89 0)
 				(effects
 					(font
@@ -54,7 +54,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "USB Type B connector"
+			(property "Description" "USB Micro Type B connector"
 				(at 0 0 0)
 				(effects
 					(font
@@ -63,7 +63,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "connector USB"
+			(property "ki_keywords" "connector USB micro"
 				(at 0 0 0)
 				(effects
 					(font
@@ -81,7 +81,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "USB_B_0_1"
+			(symbol "USB_B_Micro_0_1"
 				(rectangle
 					(start -5.08 -7.62)
 					(end 5.08 7.62)
@@ -98,17 +98,6 @@
 					(radius 0.635)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.81 5.588)
-					(end -2.54 4.572)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -187,8 +176,20 @@
 				)
 				(polyline
 					(pts
-						(xy -4.064 4.318) (xy -2.286 4.318) (xy -2.286 5.715) (xy -2.667 6.096) (xy -3.683 6.096) (xy -4.064 5.715)
-						(xy -4.064 4.318)
+						(xy -4.318 5.588) (xy -1.778 5.588) (xy -2.032 4.826) (xy -4.064 4.826) (xy -4.318 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.699 5.842) (xy -4.699 5.588) (xy -4.445 4.826) (xy -4.445 4.572) (xy -1.651 4.572) (xy -1.651 4.826)
+						(xy -1.397 5.588) (xy -1.397 5.842) (xy -4.699 5.842)
 					)
 					(stroke
 						(width 0)
@@ -207,6 +208,17 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(rectangle
+					(start 5.08 -5.207)
+					(end 4.318 -4.953)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -243,7 +255,7 @@
 					)
 				)
 			)
-			(symbol "USB_B_1_1"
+			(symbol "USB_B_Micro_1_1"
 				(pin power_out line
 					(at 7.62 5.08 180)
 					(length 2.54)
@@ -298,6 +310,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "ID"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_out line
 					(at 0 -10.16 90)
 					(length 2.54)
@@ -308,7 +338,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -326,7 +356,7 @@
 							)
 						)
 					)
-					(number "5"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -956,7 +986,7 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_02x02_Counter_Clockwise"
+		(symbol "Connector_Generic:Conn_02x02_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -970,7 +1000,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_02x02_Counter_Clockwise"
+			(property "Value" "Conn_02x02_Odd_Even"
 				(at 1.27 -5.08 0)
 				(effects
 					(font
@@ -996,7 +1026,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1023,7 +1053,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_02x02_Counter_Clockwise_1_1"
+			(symbol "Conn_02x02_Odd_Even_1_1"
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
@@ -1098,7 +1128,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at 7.62 0 180)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -1116,7 +1146,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 -2.54 180)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -1134,7 +1164,7 @@
 					)
 				)
 				(pin passive line
-					(at 7.62 0 180)
+					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -14260,7 +14290,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
+		(property "Footprint" "Button_Switch_SMD:SW_Tactile_SPST_NO_Straight_CK_PTS636Sx25SMTRLFS"
 			(at 265.43 257.81 0)
 			(effects
 				(font
@@ -17390,6 +17420,71 @@
 			(project "lira-plc"
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 256.54 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3bf571be-75f4-43ce-9895-37c928bc7f06")
+		(property "Reference" "#PWR076"
+			(at 256.54 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 256.54 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 256.54 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ca120c8-2c37-482a-8a33-371f88981f09")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -20965,71 +21060,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND2")
-		(at 256.54 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "71970416-e601-4e8a-8043-20c54c6a6b43")
-		(property "Reference" "#PWR051"
-			(at 256.54 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND2"
-			(at 256.54 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND2\" , ground"
-			(at 256.54 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aedfe0de-8c0e-4626-b960-133d548def11")
-		)
-		(instances
-			(project "lira-plc"
-				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 156.21 71.12 270)
 		(unit 1)
@@ -23209,7 +23239,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 287.02 81.28 0)
+		(at 287.02 83.82 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23217,7 +23248,7 @@
 		(dnp no)
 		(uuid "a04a53f7-3691-4106-b253-40eca9cbebb1")
 		(property "Reference" "J12"
-			(at 287.02 74.93 0)
+			(at 287.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23225,7 +23256,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 287.02 77.47 0)
+			(at 287.02 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23234,7 +23265,7 @@
 			)
 		)
 		(property "Footprint" "lira-connectors:Metaltex-BR0"
-			(at 287.02 81.28 0)
+			(at 287.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23243,7 +23274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 81.28 0)
+			(at 287.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23252,7 +23283,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 287.02 81.28 0)
+			(at 287.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23261,7 +23292,7 @@
 			)
 		)
 		(property "MFP" ""
-			(at 287.02 81.28 0)
+			(at 287.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23270,7 +23301,7 @@
 			)
 		)
 		(property "MFN" ""
-			(at 287.02 81.28 0)
+			(at 287.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23279,7 +23310,7 @@
 			)
 		)
 		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
-			(at 287.02 81.28 0)
+			(at 287.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23626,7 +23657,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_B")
+		(lib_id "Connector:USB_B_Micro")
 		(at 157.48 173.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23651,7 +23682,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_B_OST_USB-B1HSxx_Horizontal"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118193-0001LF_Horizontal"
 			(at 161.29 175.26 0)
 			(effects
 				(font
@@ -23669,7 +23700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type B connector"
+		(property "Description" "USB Micro Type B connector"
 			(at 157.48 173.99 0)
 			(effects
 				(font
@@ -23678,7 +23709,34 @@
 				(hide yes)
 			)
 		)
-		(property "Link" "https://produto.mercadolivre.com.br/MLB-1210749725-5-pecas-conector-usb-tipo-b-90-graus-solda-placa-promoco-_JM#polycard_client=search-nordic&position=5&search_layout=grid&type=item&tracking_id=247c7092-bed6-4cd7-a32a-5e939e64feae"
+		(property "Link" "https://produto.mercadolivre.com.br/MLB-3758793983-kit-100x-micro-usb-de-5-pinos-com-abas-chifre-de-boi-fmea-_JM#polycard_client=recommendations_vip-v2p&reco_backend=ranker_retrieval_system_vpp_v2p&reco_model=ranker_entity_v2&reco_client=vip-v2p&reco_item_pos=0&reco_backend_type=low_level&reco_id=b14da36e-66d6-4c6e-814b-946380965a6d&wid=MLB3758793983&sid=recos"
+			(at 157.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFP" ""
+			(at 157.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFN" ""
+			(at 157.48 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 157.48 173.99 0)
 			(effects
 				(font
@@ -23701,6 +23759,9 @@
 		)
 		(pin "1"
 			(uuid "b640b616-0b39-464c-9a71-e99d06f4bac3")
+		)
+		(pin "6"
+			(uuid "17a1ee46-f650-468c-9965-c1584aa0bbb7")
 		)
 		(instances
 			(project ""
@@ -25885,7 +25946,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P5.08mm_Vertical_AnodeUp"
 			(at 95.25 25.4 0)
 			(effects
 				(font
@@ -29324,7 +29385,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x02_Counter_Clockwise")
+		(lib_id "Connector_Generic:Conn_02x02_Odd_Even")
 		(at 54.61 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29334,7 +29395,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb7277d4-32fd-4b59-9880-a4f804ae799c")
 		(property "Reference" "J4"
-			(at 55.88 78.74 0)
+			(at 55.88 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29368,7 +29429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x02, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 54.61 85.09 0)
 			(effects
 				(font
@@ -29396,6 +29457,15 @@
 			)
 		)
 		(property "Link" ""
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" ""
 			(at 54.61 85.09 0)
 			(effects
 				(font
