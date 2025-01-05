@@ -1,0 +1,172 @@
+(footprint "LM2596-Board_1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "efbb97a9-c0fd-44e6-94cf-765cd50507d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LM2596-Board_Vertical"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0688d940-0acc-40db-b30e-bcc505bb58dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bf80fb2-e9be-4000-acd5-16eb89e61e86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb8ea80a-d5bb-43fb-9fe8-c524fcf29b6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9472d64-d858-41a3-b500-2c34178d639b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.778 -2.794)
+		(end -1.778 -14.478)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0cba50c4-fcd6-4b98-a716-ac50f56ae4e8")
+	)
+	(fp_line
+		(start 2.794 -19.304)
+		(end 36.83 -19.304)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eaa75fae-0e99-4d87-a870-59fb7aea690e")
+	)
+	(fp_line
+		(start 36.83 2.032)
+		(end 2.794 2.032)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "af164026-0d06-49f1-97fe-9df8f15ae611")
+	)
+	(fp_line
+		(start 41.656 -14.478)
+		(end 41.656 -2.794)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd7ae1bc-1b11-4803-b20e-4a16146f3731")
+	)
+	(fp_rect
+		(start -1.524 -19.05)
+		(end 41.402 1.778)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "69b928b5-2c86-4e59-9f8e-5cd0c94abdf5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dbb87561-698b-4401-b8b6-86bc295d0e9d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 -17.272)
+		(size 5 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "0b7e3c17-d69a-4e38-84b3-5c25e4a6e45a")
+	)
+	(pad "2" smd roundrect
+		(at 0 0)
+		(size 5 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "e6714b56-d6ac-44c5-9d81-6be6516796b7")
+	)
+	(pad "2" smd roundrect
+		(at 39.624 0)
+		(size 5 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "750e9855-af0d-4ddc-ad58-b9d74788365c")
+	)
+	(pad "3" smd roundrect
+		(at 39.624 -17.272)
+		(size 5 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.125)
+		(uuid "571589b9-2cb5-47a4-ba32-d21ed94b274b")
+	)
+	(model "${KICAD_LIRAPLC_LIB}/3d/lira-regulators/LM2596 DC-DC StepDown Converter v1.step"
+		(offset
+			(xyz 41.5 8 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

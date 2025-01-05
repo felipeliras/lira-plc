@@ -6101,147 +6101,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:L7805"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -3.81 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L7805"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.635 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf"
-				(at 0 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Voltage Regulator 1.5A Positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO?252* TO?263* TO?220*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L7805_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "L7805_1_1"
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -8032,6 +7891,12 @@
 		(uuid "cb04cf28-6a35-4dca-a9eb-d08944fdce52")
 	)
 	(junction
+		(at 116.84 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2186e96-b610-40d9-b2d8-d6aca2aa0bfa")
+	)
+	(junction
 		(at 193.04 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8066,12 +7931,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfdf8fdd-7a05-461c-bf8f-105e0b6b6ae9")
-	)
-	(junction
-		(at 124.46 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e53c8d8b-41a4-4732-a046-d2de5158afcb")
 	)
 	(junction
 		(at 120.65 190.5)
@@ -8216,16 +8075,6 @@
 			(type default)
 		)
 		(uuid "03cc6fd5-eca9-44d4-ba7a-01adffc9483f")
-	)
-	(wire
-		(pts
-			(xy 124.46 33.02) (xy 124.46 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03e5e4d8-da4e-4cb5-a58d-5171640ab639")
 	)
 	(wire
 		(pts
@@ -9219,6 +9068,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 38.1) (xy 140.97 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364050dc-0f8f-4cc2-b91a-ee75e243aaa7")
+	)
+	(wire
+		(pts
 			(xy 158.75 271.78) (xy 157.48 271.78)
 		)
 		(stroke
@@ -9516,6 +9375,16 @@
 			(type default)
 		)
 		(uuid "49934407-e2b3-4967-a306-404e0a074c7a")
+	)
+	(wire
+		(pts
+			(xy 116.84 30.48) (xy 116.84 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a469f27-3f4c-4523-b87f-b2642263c4f0")
 	)
 	(wire
 		(pts
@@ -9846,6 +9715,16 @@
 			(type default)
 		)
 		(uuid "5db7464a-0daa-4f68-8a78-d34dbe3d9580")
+	)
+	(wire
+		(pts
+			(xy 130.81 25.4) (xy 140.97 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e83ef58-f8b8-4b97-b1e0-bdd0e1a3a6ca")
 	)
 	(wire
 		(pts
@@ -10219,7 +10098,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 25.4) (xy 116.84 25.4)
+			(xy 105.41 25.4) (xy 118.11 25.4)
 		)
 		(stroke
 			(width 0)
@@ -10436,16 +10315,6 @@
 			(type default)
 		)
 		(uuid "81210575-0db6-4cb0-90b3-27ce0aa09577")
-	)
-	(wire
-		(pts
-			(xy 124.46 38.1) (xy 140.97 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8153f238-ad5a-4ac1-9ef7-89c0c97784be")
 	)
 	(wire
 		(pts
@@ -11919,16 +11788,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 25.4) (xy 140.97 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7f2e077-91db-4c2f-9ffb-7d962e1ab219")
-	)
-	(wire
-		(pts
 			(xy 342.9 31.75) (xy 347.98 31.75)
 		)
 		(stroke
@@ -11976,6 +11835,16 @@
 			(type default)
 		)
 		(uuid "d8f94165-5c3e-43cc-aef7-397d0e3502a3")
+	)
+	(wire
+		(pts
+			(xy 118.11 30.48) (xy 116.84 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d90359f6-de81-4f3d-bee8-79a50df4f965")
 	)
 	(wire
 		(pts
@@ -12529,7 +12398,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 38.1) (xy 124.46 38.1)
+			(xy 105.41 38.1) (xy 116.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14945,7 +14814,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 279.4 33.782 90)
 			(effects
 				(font
@@ -15962,106 +15831,6 @@
 			(project "lira-plc"
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:L7805")
-		(at 124.46 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24066dbb-dea4-4bfc-ac48-de14c47d4506")
-		(property "Reference" "U5"
-			(at 124.46 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM2596"
-			(at 124.46 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lira-regulators:LM2596-Board"
-			(at 125.095 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFP" ""
-			(at 124.46 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MFN" ""
-			(at 124.46 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" "https://produto.mercadolivre.com.br/MLB-2150278431-regulador-de-tenso-ajustavel-lm2596-dc-dc-step-down-_JM#polycard_client=search-nordic&position=16&search_layout=grid&type=item&tracking_id=0e46dd87-2af5-4f92-aa3f-19b2fafa1ccb"
-			(at 124.46 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "075dff10-1609-4156-803f-bf647adeec2c")
-		)
-		(pin "1"
-			(uuid "798131c4-4faa-40b8-95ad-54d8f4ab834c")
-		)
-		(pin "3"
-			(uuid "a9326e20-ba74-4e4c-8880-aafea96791e7")
-		)
-		(instances
-			(project ""
-				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
-					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -21444,7 +21213,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 82.55 260.35 0)
 			(effects
 				(font
@@ -25832,16 +25601,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 398.78 38.1 0)
+		(at 398.78 40.64 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c87a477f-e24a-4188-9ef0-439194cbe198")
 		(property "Reference" "J13"
-			(at 401.32 39.3699 0)
+			(at 401.32 39.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25850,7 +25619,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 398.78 34.29 0)
+			(at 398.78 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25859,7 +25628,7 @@
 			)
 		)
 		(property "Footprint" "lira-connectors:Metaltex-BR0"
-			(at 398.78 38.1 0)
+			(at 398.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25868,7 +25637,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 398.78 38.1 0)
+			(at 398.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25877,7 +25646,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 398.78 38.1 0)
+			(at 398.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25886,7 +25655,7 @@
 			)
 		)
 		(property "MFP" ""
-			(at 398.78 38.1 0)
+			(at 398.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25895,7 +25664,7 @@
 			)
 		)
 		(property "MFN" ""
-			(at 398.78 38.1 0)
+			(at 398.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25904,7 +25673,7 @@
 			)
 		)
 		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
-			(at 398.78 38.1 0)
+			(at 398.78 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26116,7 +25885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 95.25 25.4 0)
 			(effects
 				(font
@@ -26573,24 +26342,24 @@
 		(fields_autoplaced yes)
 		(uuid "d12e7699-d257-4b6f-96ca-586b62cbfc7c")
 		(property "Reference" "D5"
-			(at 83.82 30.4799 90)
+			(at 88.9 30.4799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "P6KE24A"
-			(at 83.82 33.0199 90)
+			(at 88.9 33.0199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp"
 			(at 81.28 31.75 0)
 			(effects
 				(font
@@ -27824,16 +27593,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 398.78 43.18 0)
+		(at 398.78 45.72 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4e570b0-7df7-4517-96ce-b4e2dddff4ac")
 		(property "Reference" "J14"
-			(at 401.32 44.4499 0)
+			(at 401.32 44.4501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27842,7 +27611,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02"
-			(at 398.78 39.37 0)
+			(at 398.78 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27851,7 +27620,7 @@
 			)
 		)
 		(property "Footprint" "lira-connectors:Metaltex-BR0"
-			(at 398.78 43.18 0)
+			(at 398.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27860,7 +27629,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 398.78 43.18 0)
+			(at 398.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27869,7 +27638,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 398.78 43.18 0)
+			(at 398.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27878,7 +27647,7 @@
 			)
 		)
 		(property "MFP" ""
-			(at 398.78 43.18 0)
+			(at 398.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27887,7 +27656,7 @@
 			)
 		)
 		(property "MFN" ""
-			(at 398.78 43.18 0)
+			(at 398.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27896,7 +27665,7 @@
 			)
 		)
 		(property "Link" "https://www.metaltex.com.br/produtos/bornes-para-pci/bornes-para-pci/borne-modular-para-pci-2-vias-passo-5mm-12-5mm-preto"
-			(at 398.78 43.18 0)
+			(at 398.78 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28505,7 +28274,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 82.55 222.25 0)
 			(effects
 				(font
@@ -28781,7 +28550,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 82.55 184.15 0)
 			(effects
 				(font
@@ -28896,7 +28665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P3.81mm_Vertical_AnodeUp"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 82.55 146.05 0)
 			(effects
 				(font
@@ -29730,6 +29499,74 @@
 				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
 					(reference "D7")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 118.11 24.13)
+		(size 12.7 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "207be200-e84b-4822-b795-415e2fc1158d")
+		(property "Sheetname" "step-down"
+			(at 118.11 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "step-down.kicad_sch"
+			(at 118.11 32.3346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 118.11 30.48 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3002177f-7700-4eb7-a061-6d99e6d865e4")
+		)
+		(pin "VIN" input
+			(at 118.11 25.4 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "35f6ece1-24c8-4149-8296-af3a8b0b3b54")
+		)
+		(pin "VOUT" output
+			(at 130.81 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a6022dac-3355-42b6-9706-08006240869f")
+		)
+		(instances
+			(project "lira-plc"
+				(path "/89fa62da-2443-4d2a-82e9-dd0d63b2bbd1"
+					(page "3")
 				)
 			)
 		)

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -118,7 +118,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -659,6 +659,10 @@
     [
       "bbaa0270-d0eb-4513-82d9-f5da1a8ee507",
       "Analog Input1"
+    ],
+    [
+      "207be200-e84b-4822-b795-415e2fc1158d",
+      "step-down"
     ]
   ],
   "text_variables": {}
