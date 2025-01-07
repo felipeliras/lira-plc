@@ -1,4 +1,4 @@
 # lira-plc
 
 ## Disclaimer
-This project includes images of assemblies that use third-party components from Phoenix Contact. The electronic housing shown in the images is a product of Phoenix Contact and is used here for reference and demonstration purposes only. All product names, logos, and brands are property of their respective owners.
+This project includes CAD models provided by Phoenix Contact for integration into the PCB assembly. The CAD files are used in accordance with Phoenix Contact’s usage rights for the purpose of distributing and documenting this project. Phoenix Contact remains the owner and author of the original CAD files. All product names, logos, and trademarks are the property of their respective owners.
