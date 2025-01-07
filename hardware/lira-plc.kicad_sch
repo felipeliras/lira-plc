@@ -26420,7 +26420,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_KathodeUp"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 81.28 31.75 0)
 			(effects
 				(font
